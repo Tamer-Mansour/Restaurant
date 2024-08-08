@@ -46,6 +46,7 @@ node_modules/
 
 # Visual Studio Code
 .vscode/
+.vs
 
 # Package distribution
 *.nupkg
