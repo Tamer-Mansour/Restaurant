@@ -1,95 +1,43 @@
-# .NET
-*.dll
-*.exe
-*.pdb
-*.dbmdl
-*.bak
-*.log
-*.nupkg
-*.snk
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Visual Studio
+.vs/
+
+# Fleet
+.fleet/
+
+# Code Rush
+.cr/
+
+# User-specific files
 *.suo
 *.user
 *.userosscache
-*.suo
-*.vscode
-.vscode/
-*.code-workspace
-
-# ASP.NET Core
-wwwroot/
-appsettings*.json
-*.development.json
-*.testsettings
-*.user
-*.log
+*.sln.docstates
 
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
+[Rr]elease/
 [Rr]eleases/
-[Aa][Rr][Mm]/
-[Ll]og/
-[Ll]ogs/
-
-# Rider
-.idea/
-*.suo
-*.sln.iml
-*.dotCover
-
-# OS-specific
-.DS_Store
-Thumbs.db
-
-# Node.js
-node_modules/
-
-# Visual Studio Code
-.vscode/
-.vs
-
-# Package distribution
-*.nupkg
-*.snupkg
-*.tgz
-*.gz
-
-# NuGet
-*.nupkg
-*.snupkg
-
-# Windows
-*.cab
-*.msi
-*.iso
-*.img
-*.appx
-*.appxbundle
-
-# Mac
-*.DS_Store
-
-# Linux
-*.so
-*.out
-
-# JetBrains Rider
-.idea/
-
-# Dotnet tool files
-dotnet-tools.json
-
-# Files created by build systems
-*.swp
-*.swo
-*.pidb
-*.suo
-*.tmp
-*.bak
-*.ncb
-*.suo
-*.user
-*.userosscache
-
-# Package dependencies
-packages/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
