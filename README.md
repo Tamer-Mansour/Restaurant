@@ -36,13 +36,13 @@ HTTP, or **HyperText Transfer Protocol**, is a protocol used for transferring da
 ### Example of an HTTP Request and Response
 
 **Request**:
-```
+```bash
 GET /index.html HTTP/1.1
 Host: www.example.com
 ```
 
 **Response**:
-```
+```html
 HTTP/1.1 200 OK
 Content-Type: text/html
 Content-Length: 1234
