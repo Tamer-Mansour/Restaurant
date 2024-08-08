@@ -1,0 +1,94 @@
+# .NET
+*.dll
+*.exe
+*.pdb
+*.dbmdl
+*.bak
+*.log
+*.nupkg
+*.snk
+*.suo
+*.user
+*.userosscache
+*.suo
+*.vscode
+.vscode/
+*.code-workspace
+
+# ASP.NET Core
+wwwroot/
+appsettings*.json
+*.development.json
+*.testsettings
+*.user
+*.log
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]eleases/
+[Aa][Rr][Mm]/
+[Ll]og/
+[Ll]ogs/
+
+# Rider
+.idea/
+*.suo
+*.sln.iml
+*.dotCover
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+
+# Visual Studio Code
+.vscode/
+
+# Package distribution
+*.nupkg
+*.snupkg
+*.tgz
+*.gz
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# Windows
+*.cab
+*.msi
+*.iso
+*.img
+*.appx
+*.appxbundle
+
+# Mac
+*.DS_Store
+
+# Linux
+*.so
+*.out
+
+# JetBrains Rider
+.idea/
+
+# Dotnet tool files
+dotnet-tools.json
+
+# Files created by build systems
+*.swp
+*.swo
+*.pidb
+*.suo
+*.tmp
+*.bak
+*.ncb
+*.suo
+*.user
+*.userosscache
+
+# Package dependencies
+packages/
