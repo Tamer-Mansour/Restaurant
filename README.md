@@ -119,3 +119,41 @@ In this example:
 - **Response**: The API responds with the user's details in JSON format.
 
 APIs are fundamental to modern software development, enabling integration between systems, enhancing functionality, and fostering innovation. They allow developers to leverage external services and create more powerful and interconnected applications.
+
+
+### Errors Statues code
+
+| Status Code | Category          | Description                                | Typical Use Case                            |
+|-------------|-------------------|--------------------------------------------|---------------------------------------------|
+| **1xx Informational** |                   |                                            |                                             |
+| 100          | Informational     | Continue                                   | Indicates that the initial part of the request has been received and the client should continue. |
+| 101          | Informational     | Switching Protocols                       | Indicates that the server is switching protocols as requested by the client. |
+| **2xx Success**       |                   |                                            |                                             |
+| 200          | Success           | OK                                         | The request was successful, and the server responded with the requested data. |
+| 201          | Success           | Created                                    | The request was successful, and a new resource was created. |
+| 202          | Success           | Accepted                                    | The request has been accepted for processing, but the processing is not complete. |
+| 204          | Success           | No Content                                 | The request was successful, but there is no content to send in the response. |
+| **3xx Redirection**   |                   |                                            |                                             |
+| 300          | Redirection       | Multiple Choices                           | Indicates that multiple options are available and the client needs to choose one. |
+| 301          | Redirection       | Moved Permanently                          | The requested resource has been permanently moved to a new URL. |
+| 302          | Redirection       | Found                                       | The requested resource has been temporarily moved to a new URL. |
+| 304          | Redirection       | Not Modified                               | The resource has not been modified since the last request. |
+| **4xx Client Error**  |                   |                                            |                                             |
+| 400          | Client Error      | Bad Request                                | The server could not understand the request due to invalid syntax. |
+| 401          | Client Error      | Unauthorized                               | The request requires user authentication. |
+| 403          | Client Error      | Forbidden                                  | The server understood the request but refuses to authorize it. |
+| 404          | Client Error      | Not Found                                  | The server could not find the requested resource. |
+| 405          | Client Error      | Method Not Allowed                         | The request method is not allowed for the resource. |
+| 408          | Client Error      | Request Timeout                            | The server timed out waiting for the request. |
+| 409          | Client Error      | Conflict                                    | The request could not be completed due to a conflict with the current state of the resource. |
+| 410          | Client Error      | Gone                                        | The requested resource is no longer available and has been permanently removed. |
+| 413          | Client Error      | Payload Too Large                          | The request entity is larger than limits defined by the server. |
+| 415          | Client Error      | Unsupported Media Type                     | The server refuses to accept the request because the media type is unsupported. |
+| 429          | Client Error      | Too Many Requests                          | The user has sent too many requests in a given amount of time. |
+| **5xx Server Error**  |                   |                                            |                                             |
+| 500          | Server Error      | Internal Server Error                      | The server encountered an unexpected condition that prevented it from fulfilling the request. |
+| 501          | Server Error      | Not Implemented                            | The server does not support the functionality required to fulfill the request. |
+| 502          | Server Error      | Bad Gateway                                | The server, while acting as a gateway or proxy, received an invalid response from the upstream server. |
+| 503          | Server Error      | Service Unavailable                        | The server is currently unable to handle the request due to temporary overloading or maintenance. |
+| 504          | Server Error      | Gateway Timeout                            | The server, while acting as a gateway or proxy, did not receive a timely response from the upstream server. |
+| 505          | Server Error      | HTTP Version Not Supported                 | The server does not support the HTTP protocol version used in the request. |
